@@ -4,12 +4,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    assetsDir: 'assets', 
+    assetsDir: 'assets', // This specifies where to put assets like images
     rollupOptions: {
-      input: {
-        main: './src/index.html',
-        nested: './src/nested/index.html'
-      }
-    }
-  }
+      input: './src/index.js', // Point this to your main JavaScript file
+    },
+  },
 });
