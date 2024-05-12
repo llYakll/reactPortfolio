@@ -1,18 +1,19 @@
 import React from 'react';
+import resumeFile from '/src/resume/zackSullivan.pdf';
 
 const Resume = () => {
   return (
     <section>
       <h2>Resume</h2>
       <div>
-        <a href="path_to_resume" download>Download Resume</a>
+        <a href={resumeFile} download>Download Resume</a>
       </div>
       <div>
         <h3>Proficiencies</h3>
         <ul>
           <li>React</li>
           <li>JavaScript</li>
-          {/* moar, express, jest, vite, etc */}
+          {/* Add more stuff like oop, tdd, etc */}
         </ul>
       </div>
     </section>

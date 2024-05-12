@@ -1,0 +1,39 @@
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  img {
+    border-radius: 2vh;
+    height: 30vw;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .image-container {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 20px; 
+    overflow: hidden; 
+  }
+  
+  .about-text {
+    width: 100%; 
+    background-color: #33333300; 
+    color: #fff; 
+    padding: 20px; 
+    opacity: 0;
+    animation: fade-in 2s forwards; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  
