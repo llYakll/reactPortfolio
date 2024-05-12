@@ -1,21 +1,15 @@
 import React from 'react';
-import Project from './Project';
+import Project from './props/Project';
 
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Project 1',
-      image: 'path_to_image',
-      demoLink: 'demo_link',
-      githubLink: 'github_link'
-    },
-    {
-      title: 'Project 2',
-      image: 'path_to_image',
-      demoLink: 'demo_link',
-      githubLink: 'github_link'
-    },
-   
+      title: 'Password Generator',
+      image: "src\assets\p1.png",
+      demoLink: 'https://llyakll.github.io/itsamepasswardo/',
+      githubLink: 'https://github.com/llYakll/itsamepasswardo'
+    }
+
   ];
 
   return (

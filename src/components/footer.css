@@ -1,0 +1,13 @@
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+  }
+  
+  
+  .footer-links a:hover {
+    color: #fff; 
+    background-color: #333;
+    border-radius: 5px;
+   
+  }

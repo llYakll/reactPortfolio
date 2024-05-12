@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-
+import Home from './components/Home'
 const App = () => {
   return (
     <Router>
@@ -14,6 +14,7 @@ const App = () => {
         <Header />
         <main>
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
