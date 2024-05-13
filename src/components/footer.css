@@ -1,13 +1,16 @@
+footer {
+  background-color: #d4d4d4; 
+  color: slategray; 
+  text-align: center; 
+  padding: 1rem; 
+}
+
 .footer-links {
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-  }
-  
-  
-  .footer-links a:hover {
-    color: #fff; 
-    background-color: #333;
-    border-radius: 5px;
-   
-  }
+  margin: 5px;
+  text-decoration: none; 
+  color: slategray; 
+}
+
+.footer-links:hover {
+  color: #333; 
+}

@@ -5,7 +5,7 @@ const Portfolio = () => {
   const projects = [
     {
       title: 'Password Generator',
-      image: "src\assets\p1.png",
+      image: "/p1.png",
       demoLink: 'https://llyakll.github.io/itsamepasswardo/',
       githubLink: 'https://github.com/llYakll/itsamepasswardo'
     }
