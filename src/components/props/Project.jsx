@@ -3,7 +3,7 @@ import React from 'react';
 const Project = ({ title, image, demoLink, githubLink }) => {
   return (
     <div className="project">
-      <img src="src/assets/p1.png" alt={title} className="passwordimg" />
+      <img src="/p1.png" alt={title} className="passwordimg" />
       <h3>{title}</h3>
       
       <div>

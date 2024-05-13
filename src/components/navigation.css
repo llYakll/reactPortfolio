@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: slate;
+    padding: 1rem;
+  }
+  
+  .list {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .list li {
+    margin-right: 1rem;
+  }
+  
+  .list li a {
+    text-decoration: none;
+    color: slategray;
+  }
+  
+  .list li a:hover {
+    color: #fff; /* Change text color to white on hover */
+  }

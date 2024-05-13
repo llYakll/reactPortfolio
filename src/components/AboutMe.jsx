@@ -18,10 +18,12 @@ const AboutMe = () => {
     <section>
       <h2>About Me</h2>
       <div className="about-container">
-        <img src="src/assets/zak.jpg" alt="Zachary Sullivan" height="300px"/>
-        <div className={`about-text ${showContent ? 'fade-in' : ''}`}>
+        <div className="image-container">
+          <img src="/zak.jpg" alt="Zachary Sullivan" className="profile-image" />
+        </div>
+        <div className="about-text">
           <p className="greeting">Hello, I'm Zachary Sullivan.</p>
-          <p className="statement">I'm a passionate web developer with expertise in React and JavaScript. I will add a slidehow here with a history of myself</p>
+          <p className="statement">I'm a passionate web developer with expertise in React and JavaScript. I will add a slideshow here with a history of myself.</p>
         </div>
       </div>
     </section>
