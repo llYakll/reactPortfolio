@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from './props/Project';
-
+import "./portfolio.css"
 const Portfolio = () => {
   const projects = [
     {
@@ -13,9 +13,9 @@ const Portfolio = () => {
   ];
 
   return (
-    <section>
+    <section className="port-container">
       <h2>Portfolio</h2>
-      <div className="projects">
+      <div className="password-generator">
         {projects.map((project, index) => (
           <Project
             key={index}

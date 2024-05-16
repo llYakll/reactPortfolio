@@ -1,0 +1,20 @@
+.port-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.password-generator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.passwordimg {
+    border-radius: 5vw;;
+    max-width: 70vw;
+  }
