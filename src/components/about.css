@@ -6,9 +6,20 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center; 
   border-radius: 5vh;
   margin: 2vw;
+}
 
+.image-container {
+  width: 25vh; 
+  height: 30vh; 
+  overflow: hidden; 
+  border-radius: 5vh; 
+  margin-right: 2vw; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
 }
 
 .profile-image {
@@ -16,18 +27,8 @@ h2 {
   height: 100%;
   object-fit: cover; 
   object-position: center top; 
-}
-
-.image-container {
-  font-size: 2vh;
-  min-width: 20vh;
-  width: 25vh; 
-  height: 30vh; 
-  overflow: hidden; 
   border-radius: 5vh; 
-  margin-right: 20px; 
 }
-
 
 .about-text {
   text-align: center;
@@ -35,8 +36,23 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #42424279; /* Grey box background color */
+  background-color: #42424279;
+  width: 25vh; 
   height: 30vh;
   padding: 1vh;
-  border-radius: 5vh; /* Add rounded corners to the box */
+  border-radius: 5vh;
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    margin: 5vw;
+  }
+
+  .image-container, .about-text {
+    width: 80vw;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 2vh;
+  }
 }

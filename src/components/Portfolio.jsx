@@ -1,15 +1,21 @@
 import React from 'react';
 import Project from './props/Project';
-import "./portfolio.css"
+import './portfolio.css';
+
 const Portfolio = () => {
   const projects = [
     {
       title: 'Password Generator',
-      image: "/p1.png",
+      image: '/p1.png',
       demoLink: 'https://llyakll.github.io/itsamepasswardo/',
       githubLink: 'https://github.com/llYakll/itsamepasswardo'
+    },
+    {
+      title: 'Work Day Scheduler',
+      image: '/wds.png',
+      demoLink: 'https://llyakll.github.io/planyourday/',
+      githubLink: 'https://github.com/llYakll/planyourday'
     }
-
   ];
 
   return (
